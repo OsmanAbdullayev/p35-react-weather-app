@@ -1,0 +1,90 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	width: 100%;
+	#root {
+		height: 100%;
+		width: 100%;
+		.app {
+			height: 100%;
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: start;
+			align-items: center;
+			background-image: url("../assets/img/cloudy.jpg");
+			background-position: bottom;
+			background-repeat: no-repeat;
+			background-size: cover;
+			main {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				padding: 40px;
+				.search-box {
+					margin-bottom: 30px;
+					input {
+						background-color: rgba(
+							255,
+							255,
+							255,
+							0.495
+						);
+						border: none;
+						border-radius: 20px;
+						padding: 1em;
+						text-align: center;
+						&::placeholder {
+							color: black;
+							opacity: 1;
+							border: none;
+						}
+						&:focus {
+							outline: none !important;
+						}
+					}
+				}
+				section {
+					.location-box {
+						.location {
+							font-size: 3em;
+							text-align: center;
+							font-weight: 700;
+						}
+						.date {
+							font-size: 1.5em;
+							text-align: center;
+							font-weight: 700;
+						}
+					}
+					.weather-box {
+						margin-top: 30px;
+						background-color: rgba(
+							255,
+							255,
+							255,
+							0.495
+						);
+						padding: 40px;
+						border-radius: 20px;
+						.temp {
+							font-size: 6em;
+							text-align: center;
+							font-weight: 700;
+						}
+
+						.weather {
+							font-size: 4em;
+							text-align: center;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.warm {
+	background-image: url("../assets/img/warm.jpg") !important;
+}
