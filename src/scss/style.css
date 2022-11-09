@@ -13,7 +13,7 @@ body #root .app {
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   background-image: url("../assets/img/cloudy.jpg");
   background-position: bottom;
