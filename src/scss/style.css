@@ -1,3 +1,7 @@
+* {
+  font-family: "montserrat", sans-serif;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -27,13 +31,13 @@ body #root .app main {
   padding: 40px;
 }
 body #root .app main .search-box {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 body #root .app main .search-box input {
   background-color: rgba(255, 255, 255, 0.495);
   border: none;
   border-radius: 20px;
-  padding: 1em;
+  padding: 1rem;
   text-align: center;
 }
 body #root .app main .search-box input::-moz-placeholder {
@@ -55,29 +59,32 @@ body #root .app main .search-box input:focus {
   outline: none !important;
 }
 body #root .app main section .location-box .location {
-  font-size: 3em;
+  font-size: 3rem;
   text-align: center;
   font-weight: 700;
+  text-shadow: 1px 3px rgba(202, 202, 202, 0.5);
 }
 body #root .app main section .location-box .date {
-  font-size: 1.5em;
+  font-size: 1rem;
   text-align: center;
   font-weight: 700;
 }
 body #root .app main section .weather-box {
-  margin-top: 30px;
+  margin-top: 20px;
   background-color: rgba(255, 255, 255, 0.495);
   padding: 40px;
   border-radius: 20px;
 }
 body #root .app main section .weather-box .temp {
-  font-size: 6em;
+  font-size: 6rem;
   text-align: center;
-  font-weight: 700;
+  font-weight: 900;
+  text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
 }
 body #root .app main section .weather-box .weather {
-  font-size: 4em;
+  font-size: 4rem;
   text-align: center;
+  text-shadow: 1px 3px rgba(50, 50, 70, 0.5);
 }
 
 .warm {
