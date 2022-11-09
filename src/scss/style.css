@@ -76,13 +76,13 @@ body #root .app main section .weather-box {
   border-radius: 20px;
 }
 body #root .app main section .weather-box .temp {
-  font-size: 6rem;
+  font-size: 4rem;
   text-align: center;
   font-weight: 900;
   text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
 }
 body #root .app main section .weather-box .weather {
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center;
   text-shadow: 1px 3px rgba(50, 50, 70, 0.5);
 }
